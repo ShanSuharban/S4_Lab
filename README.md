@@ -4,13 +4,13 @@ Welcome to the **S4 Operating Systems Lab Repository**! 🚀 This repository con
 
 ---
 
-##  📝 Some Notes 
+##  **📝 Some Notes** 
 
 - 📖 Use the codes for Learning Purposes 
 
 * 💡 Make sure you find the correct corresponding codes and make changes to the code and according to your need 
 
-## ⚙️ Compile & Run
+## *⚙️ Compile & Run*
 
 
   ### **C Program**
@@ -27,14 +27,14 @@ Welcome to the **S4 Operating Systems Lab Repository**! 🚀 This repository con
     ```bash
      ./a.out
 
-## ✨ Magic Command
+## **✨ Magic Command**
 
 * Use the following command to download this repository as a zip file:
   ```bash
     wget --no-check-certificate -O repo.zip 
 
 
-##  ❌ Warnings 
+##  **❌ Warnings** 
 
 *  ⚠️ Do not download or copy these codes for exams or other areas.
 +  ❗ Avoid purely downloading and copying the codes without understanding them.

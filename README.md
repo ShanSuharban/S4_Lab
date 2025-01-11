@@ -1,42 +1,43 @@
-# S4 Lab: Operating System in C 💻
+# 🌐 S4 Operating Systems Lab (Using C)
 
-Welcome to the S4 Lab repository! This lab focuses on developing an Operating System using the C programming language. Here, you will find all the necessary resources, code, and documentation to help you understand and implement various OS concepts.
+Welcome to the **S4 Operating Systems Lab Repository**! 🚀 This repository contains the implementation of various Operating System concepts and algorithms using the **C programming language**. Whether you're revising concepts, exploring code, or contributing, you've come to the right place! 💡
 
-## Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+---
 
-## About 📖
+## 📚 Contents
 
-This repository contains the source code and documentation for the S4 Lab, which aims to provide a hands-on experience in building an Operating System using C. The lab covers various OS concepts such as process management, memory management, file systems, and more.
+Here's what you'll find in this repository:
 
-## Features ✨
+1. **Process Scheduling Algorithms** 🕒  
+   - First Come First Serve (FCFS)  
+   - Shortest Job Next (SJN)  
+   - Round Robin (RR)  
+   - Priority Scheduling  
 
-- **Process Management**: Implementation of process creation, scheduling, and termination.
-- **Memory Management**: Techniques for memory allocation and deallocation.
-- **File Systems**: Basic file operations and directory management.
-- **Concurrency**: Handling concurrent processes and synchronization.
-- **Device Drivers**: Simple device driver implementations.
+2. **Memory Management** 🧠  
+   - Paging  
+   - Segmentation  
 
-## Getting Started 🚀
+3. **Deadlock Handling** 🔗  
+   - Deadlock Detection  
+   - Deadlock Prevention  
 
-### Prerequisites
+4. **File System Management** 📂  
+   - File Allocation Techniques (Contiguous, Indexed, Linked)  
 
-Before you begin, ensure you have the following installed:
+5. **Synchronization Techniques** ⚙️  
+   - Producer-Consumer Problem  
+   - Reader-Writer Problem  
 
-- A C compiler (e.g., GCC)
-- Git for version control
-- A text editor or IDE (e.g., VSCode, CLion)
+6. **Other OS Concepts** 💻  
+   - Banker's Algorithm  
+   - Disk Scheduling (FCFS, SSTF, SCAN, C-SCAN)  
 
-### Installation
+---
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/S4_Lab.git
+## 🛠️ How to Use
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/YourUsername/S4_Lab_OS.git
+

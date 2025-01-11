@@ -4,40 +4,38 @@ Welcome to the **S4 Operating Systems Lab Repository**! 🚀 This repository con
 
 ---
 
-##  Some Notes 📝
+##  📝 Some Notes 
 
-- Use the codes for Learning Purposes 📖
+- 📖 Use the codes for Learning Purposes 
 
-* Make sure you find the correct corresponding codes and make changes to the code and according to your need 💡
+* 💡 Make sure you find the correct corresponding codes and make changes to the code and according to your need 
 
-## Compile & Run
+## ⚙️ Compile & Run
 
 
-  ### C program
+  ### **C Program**
 
-  * To compile C program:
+  * 🛠️ To compile C program:
     ```bash
      cc file_name.c
 
-  * To compile C program contain Math Function:
+  * ➕ To compile C program contain Math Function:
     ```bash
      cc file_name.c -lm
 
-  * To run C compiled program:
+  * ▶️ To run the compiled C program:
     ```bash
      ./a.out
 
-## magic command
+## ✨ Magic Command
 
-* command:
+* Use the following command to download this repository as a zip file:
   ```bash
     wget --no-check-certificate -O repo.zip 
 
 
-##  Warnings ❌❌❌
+##  ❌ Warnings 
 
-* Dont Download or Copy the codes for exam and other areas ⚠️⚠️⚠️
-
-+ Dont just purely download and copy the codes ❗❗❗
-
-- Modify and use according to your needs and usecases for understanding and learning 🧠
+*  ⚠️ Do not download or copy these codes for exams or other areas.
++  ❗ Avoid purely downloading and copying the codes without understanding them.
+-  🧠 Modify the codes as per your needs to enhance your learning and understanding.

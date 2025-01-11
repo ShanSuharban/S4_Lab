@@ -4,40 +4,40 @@ Welcome to the **S4 Operating Systems Lab Repository**! 🚀 This repository con
 
 ---
 
-Usage 🛠️
-Compile & Run
-Java Program
-To compile the Java file:
+##  Some Notes 📝
+
+- Use the codes for Learning Purposes 📖
+
+* Make sure you find the correct corresponding codes and make changes to the code and according to your need 💡
+
+## Compile & Run
 
 
-javac file_name.java
-To compile the Java Package File:
+  ### C program
+
+  * To compile C program:
+    ```bash
+     cc file_name.c
+
+  * To compile C program contain Math Function:
+    ```bash
+     cc file_name.c -lm
+
+  * To run C compiled program:
+    ```bash
+     ./a.out
+
+## magic command
+
+* command:
+  ```bash
+    wget --no-check-certificate -O repo.zip 
 
 
-javac -d . package_file_name.java
-To run the Java compiled program:
+##  Warnings ❌❌❌
 
+* Dont Download or Copy the codes for exam and other areas ⚠️⚠️⚠️
 
-java file_name
-C Program
-To compile a C program:
++ Dont just purely download and copy the codes ❗❗❗
 
-
-cc file_name.c
-To compile a C program containing Math Functions:
-
-
-cc file_name.c -lm
-To run the C compiled program:
-
-
-./a.out
-Magic Command
-Use the following command to download the repository as a zip file:
-
-
-wget --no-check-certificate -O repo.zip https://github.com/ShanSuharban/S3_Labs/archive/refs/heads/main.zip
-Warnings ❌❌❌
-Do not download or copy the codes for exams and other areas ⚠️⚠️⚠️
-Do not just purely download and copy the codes ❗❗❗
-Modify and use according to your needs and use cases for understanding and learning 🧠
+- Modify and use according to your needs and usecases for understanding and learning 🧠

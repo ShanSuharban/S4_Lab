@@ -1,0 +1,41 @@
+#include <stdio.h>
+int muttex = 1,full = 0,empty = 5,x = 0;
+void producer()
+{
+	--muttex;
+	++full;
+	--empty;
+	printf("Producer Produces item : %d",++x);
+	++muttex;
+}
+void consumer()
+{
+	--muttex;
+	--full;
+	++empty;
+	printf("Consumer consumes item : %d",x--);
+	++muttex;
+}
+int main()
+{
+	int n;
+	printf("\n1.Press 1 for producer \n2.Press 2 for Consumer\n3.Press 3 to Exit");
+	do
+	{
+		printf("\n\nEnter the choice ");
+		scanf("%d",&n);
+		switch(n)
+		{
+			case 1: if((muttex == 1) && (empty != 0))
+				  producer();
+				else
+				  printf("Buffer is full");
+				break;
+			case 2: if((muttex == 1) && (full != 0))
+				  consumer();
+				else
+				  printf("Buffer is empty");
+				break;
+		}
+	}while(n != 3);
+}

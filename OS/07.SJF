@@ -1,0 +1,60 @@
+#include <stdio.h>
+int main()
+{
+	int n, at[10], bt[10], ct[10], wt[10], tat[10], p[10], sum, temp, i,j,k;
+	float totaltat = 0, totalwt = 0;
+	printf("Enter the total number of processes: ");
+	scanf("%d",&n);
+	printf("Enter the process number\n");
+	for(i=0;i<n;i++)
+		scanf("%d",&p[i]);
+	printf("Enter the process Burst time\n");
+	for(i=0;i<n;i++)
+	{
+		printf("Enter Burst time of prcess [%d] : ",i+1);
+		scanf("%d",&bt[i]);
+	}
+	//bubble sort to sort process in according to burst time and process number.
+	for(i=0;i<n;i++)
+	{
+		for(j=0;j<n-1-i;j++)
+		{
+			if(bt[j] > bt[j+1])
+			{
+				temp = bt[j];
+				bt[j] = bt[j+1];
+				bt[j+1] = temp;
+
+				temp = p[j];
+				p[j] = p[j+1];
+				p[j+1] = temp;
+			}
+		}
+	}
+	//calculate the completion time of processes.
+	sum = 0;
+	for(j=0;j<n;j++)
+  {
+      sum += bt[j];
+		  ct[j] = sum;
+  }
+	//calculate the turn around time.
+	for(k=0;k<n;k++)
+  {
+		  tat[k] = ct[k];
+		  totaltat += tat[k];
+  }
+	//calculate the waiting time.
+	for(k=0;k<n;k++)
+  {
+      wt[k] = tat[k] - bt[k];
+      totalwt += wt[k];
+  }
+	printf("\nProcess\tBT\tCT\tTAT\tWt\n\n\n");
+	for(i=0;i<n;i++)
+		printf("\nP%d\t%d\t%d\t%d\t%d\t\n",p[i],bt[i],ct[i],tat[i],wt[i]);
+	printf("\nAverage Turn around time : %f",totaltat/n);
+	printf("\nAverage Waiting time : %f",totalwt/n);
+	return 0;
+}
+

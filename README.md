@@ -31,7 +31,7 @@ Welcome to the **S4 Operating Systems Lab Repository**! 🚀 This repository con
 
 * Use the following command to download this repository as a zip file:
   ```bash
-    wget --no-check-certificate -O repo.zip 
+   https://github.com/ShanSuharban/S4_Lab/archive/refs/heads/main.zip
 
 
 ##  *❌ Warnings*

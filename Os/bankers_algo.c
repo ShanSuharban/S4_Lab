@@ -38,8 +38,10 @@ int main() {
     }
 
     
-    for (i = 0; i < n; i++) finish[i] = 0;
-    for (i = 0; i < m; i++) work[i] = avail[i];
+    for (i = 0; i < n; i++) 
+        finish[i] = 0;
+    for (i = 0; i < m; i++) 
+        work[i] = avail[i];
 
     int completed = 0, safe = 1;
     while (completed < n) 

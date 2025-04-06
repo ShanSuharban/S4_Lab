@@ -42,21 +42,28 @@ int main() {
     for (i = 0; i < m; i++) work[i] = avail[i];
 
     int completed = 0, safe = 1;
-    while (completed < n) {
+    while (completed < n) 
+    {
         int found = 0;
-        for (i = 0; i < n; i++) {
-            if (finish[i] == 0) {
+        for (i = 0; i < n; i++) 
+        {
+            if (finish[i] == 0) 
+            {
                 int can_allocate = 1;
-                for (j = 0; j < m; j++) {
-                    if (need[i][j] > work[j]) {
-                        can_allocate = 0;
-                        break;
-                    }
+                for (j = 0; j < m; j++)
+                {
+                        if (need[i][j] > work[j]) 
+                        {
+                            can_allocate = 0;
+                            break;
+                        }
                 }
 
-                if (can_allocate) {
+                if (can_allocate) 
+                {
                     for (y = 0; y < m; y++)
                         work[y] += alloc[i][y];
+                    
                     safesequence[ind++] = i;
                     finish[i] = 1;
                     completed++;
@@ -70,12 +77,16 @@ int main() {
         }
     }
 
-    if (safe) {
+    if (safe) 
+    {
         printf("\nSystem is in a safe state.\nSafe Sequence: ");
         for (i = 0; i < n; i++)
             printf("P%d ", safesequence[i]);
+        
         printf("\n");
-    } else {
+    } 
+    else 
+    {
         printf("\nSystem is not in a safe state.\n");
     }
 
